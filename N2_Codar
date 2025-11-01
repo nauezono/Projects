@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main(){
+     // Declarando as variáveis
+    float nota1, nota2, nota3;
+    float SomaDasNotas;
+    float CalculoMedia;
+
+    // Entrada de dados:
+    printf("Digite a sua primeira nota: \n");
+    scanf("%f", &nota1);
+
+    printf("Digite a sua segunda nota: \n");
+    scanf("%f", &nota2);
+
+    printf("Digite a terceira nota: \n");
+    scanf("%f", &nota3);
+
+    // Processamento: soma e média.
+    SomaDasNotas = nota1 + nota2 + nota3;
+    CalculoMedia = SomaDasNotas / 3;
+
+    // Saída de dados.
+
+    printf("A média das notas é: %.2f\n", CalculoMedia);
+
+    return 0;
+
+}
